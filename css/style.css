@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 0.8em;
+  font-family: Helvetica, sans-serif; }
+  @media screen and (min-width: 600px) {
+    body {
+      font-size: 0.95em; } }
+
+.jobDate {
+  font-family: Georgia,serif;
+  font-style: italic; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold; }
+
+.job1 {
+  border-left: 0.8em solid #FF3D5A;
+  padding-left: 1em; }
+  @media screen and (min-width: 600px) {
+    .job1 {
+      font-size: 0.95em;
+      border-left: 1em solid #FF3D5A; } }
+  .job1 a {
+    color: #FF3D5A;
+    text-decoration: none; }
+    .job1 a:hover {
+      color: #FF7F6C; }
+
+.job2 {
+  border-left: 0.8em solid #FFBB22;
+  padding-left: 1em; }
+  @media screen and (min-width: 600px) {
+    .job2 {
+      font-size: 0.95em;
+      border-left: 1em solid #FFBB22; } }
+  .job2 a {
+    color: #FFBB22;
+    text-decoration: none; }
+    .job2 a:hover {
+      color: #FFDD33; }
+
+.job3 {
+  border-left: 0.8em solid #00CC44;
+  padding-left: 1em; }
+  @media screen and (min-width: 600px) {
+    .job3 {
+      font-size: 0.95em;
+      border-left: 1em solid #00CC44; } }
+  .job3 a {
+    color: #00CC44;
+    text-decoration: none; }
+    .job3 a:hover {
+      color: #33DD66; }
+
+.jobName {
+  font-weight: bold;
+  font-size: 1.2em; }
+
+.jobTitle {
+  padding-left: 0.8em;
+  margin-top: 1em; }
+
+.jobDescription {
+  margin-top: 0em; }
+
+/*# sourceMappingURL=style.css.map */
