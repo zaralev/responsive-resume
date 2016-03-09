@@ -18,6 +18,21 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Helvetica, sans-serif;
   font-weight: bold; }
 
+h1 {
+  font-size: 3em;
+  transition: 0.5s all ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 1px 1px #FFFFFF, 2px 2px #000000;
+  /* Color 3 */
+  /* Color 4 */ }
+  h1:hover {
+    text-shadow: 1px 1px #FFFFFF, 2px 2px #000000, 3px 3px #FFFFFF, 4px 4px #000000, 5px 5px #FFFFFF, 6px 6px #000000; }
+
+header {
+  margin-top: 2em;
+  margin-left: 4em; }
+
 .headerTwo {
   border-bottom: 0.03em solid #000000;
   font-size: 1.5em;
@@ -49,8 +64,12 @@ h1, h2, h3, h4, h5, h6 {
     .job {
       font-size: 0.95em; } }
 
+#resumeWrap {
+  width: 85%;
+  margin: auto; }
+
 .resumeSecondary {
-  background-color: #ffeeff;
+  background-color: #efefef;
   padding-bottom: 4em;
   border-top: 0.2em solid #FF1717; }
 
