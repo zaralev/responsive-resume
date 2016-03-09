@@ -49,16 +49,22 @@ h1, h2, h3, h4, h5, h6 {
     .job {
       font-size: 0.95em; } }
 
+.resumeSecondary {
+  background-color: #ffeeff;
+  padding-bottom: 4em;
+  border-top: 0.2em solid #FF1717; }
+
 @media screen and (min-width: 600px) {
   .resumeMain {
     float: left;
     width: 65%;
-    border-right: 0.15em solid #FF1717;
     padding-right: 0.5em; }
 
   .resumeSecondary {
     float: right;
     width: 35%;
-    padding-left: 1.5em; } }
+    padding-left: 1.5em;
+    border-left: 0.15em solid #FF1717;
+    border-top: none; } }
 
 /*# sourceMappingURL=style.css.map */
