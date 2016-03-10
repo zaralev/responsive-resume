@@ -28,14 +28,6 @@ body {
     body {
       font-size: 0.95em; } }
 
-.social {
-  width: 1.4em;
-  height: 1.4em; }
-  @media screen and (min-width: 600px) {
-    .social {
-      width: 1.8em;
-      height: 1.8em; } }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: Helvetica, sans-serif;
   font-weight: bold; }
@@ -47,9 +39,7 @@ h1 {
   transition: 0.5s all ease;
   text-transform: uppercase;
   text-decoration: none;
-  text-shadow: 1px 1px #FFFFFF, 2px 2px #000000;
-  /* Color 3 */
-  /* Color 4 */ }
+  text-shadow: 1px 1px #FFFFFF, 2px 2px #000000; }
   h1:hover {
     text-shadow: 1px 1px #FFFFFF, 2px 2px #000000, 3px 3px #FFFFFF, 4px 4px #000000, 5px 5px #FFFFFF, 6px 6px #000000; }
   @media screen and (min-width: 600px) {
