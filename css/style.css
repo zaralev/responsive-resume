@@ -65,20 +65,20 @@ header {
   font-size: 1.2em; }
 
 .eduName a {
-  color: #2629BF; }
+  color: #FF7817; }
 
 .eduName a:hover {
-  color: #2662C9; }
+  color: #FF9C33; }
 
 .actName {
   font-weight: bold;
   font-size: 1.2em; }
 
 .actName a {
-  color: #21DB27; }
+  color: #8BE036; }
 
 .actName a:hover {
-  color: #75EB2D; }
+  color: #91FA5C; }
 
 .jobTitle {
   padding-left: 0.8em;
@@ -124,6 +124,10 @@ ul {
 
 li {
   padding: 0.2em; }
+
+.skills {
+  font-family: Georgia, serif;
+  font-style: italic; }
 
 .resumeContact ul {
   list-style-type: none;
